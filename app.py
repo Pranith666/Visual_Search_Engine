@@ -20,12 +20,12 @@ import io
 imgs_path = "images/"
 imgs_model_width, imgs_model_height = 224, 224
 nb_closest_images = 5
-genai.configure(api_key="AIzaSyBg5IG6bflkqDSLKxJ8sGS7Wxc9pCV2Sx8")  # Replace with your API key.
+genai.configure(api_key="YOUR API KEY")  # Replace with your API key.
 model = genai.GenerativeModel('gemini-2.0-flash')
 
 # Configure Google Custom Search API (replace with your keys)
-API_KEY = "AIzaSyBAmD42UCd_k3nqRP1onN2p3DhQ8fXIniA"  # Replace with your API key.
-CSE_ID = "00215042a744a4914"  # Replace with your CSE ID.
+API_KEY = "YOUR API KEY"  # Replace with your API key.
+CSE_ID = "YOUR API KEY"  # Replace with your CSE ID.
 
 # --- Load Data ---
 @st.cache_resource
